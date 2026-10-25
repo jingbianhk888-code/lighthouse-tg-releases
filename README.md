@@ -27,7 +27,7 @@
 - 官方下载页（国内访问更快）：https://tg.amaban.app:8092
 
 系统要求：Windows 10 / 11（64 位）
-安装包文件名：`灯塔集团TG营销助手 Setup X.Y.Z.exe`
+安装包文件名：`TG.Setup.X.Y.Z.exe`（GitHub Releases 附件名；官方下载页上显示的是中文原名）
 
 > 安装时若提示"未知发布者"：点击「更多信息」→「仍要运行」。
 
