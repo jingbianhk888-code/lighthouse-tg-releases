@@ -1,0 +1,64 @@
+name: Bug 反馈
+description: 报告一个问题
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## ⚠️ 提交前必读
+        **请勿上传手机号、Session、API Key、代理信息或任何账号数据。**
+
+  - type: input
+    id: version
+    attributes:
+      label: 软件版本
+      description: 在「系统设置」页或标题栏可查看
+      placeholder: 例如 1.2.4
+    validations:
+      required: true
+
+  - type: input
+    id: os
+    attributes:
+      label: Windows 版本
+      placeholder: 例如 Windows 11 24H2
+    validations:
+      required: true
+
+  - type: input
+    id: page
+    attributes:
+      label: 出问题的功能页
+      placeholder: 例如 统一群发 / 账号管理
+    validations:
+      required: true
+
+  - type: textarea
+    id: repro
+    attributes:
+      label: 操作步骤
+      placeholder: |
+        1. 打开...
+        2. 点击...
+        3. 出现...
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected_actual
+    attributes:
+      label: 期望结果与实际结果
+    validations:
+      required: false
+
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: 截图（已打码）
+    validations:
+      required: false
+
+  - type: markdown
+    attributes:
+      value: |
+        也可通过 Telegram 联系 [@gdpsc](https://t.me/gdpsc)。
